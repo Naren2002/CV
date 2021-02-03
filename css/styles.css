@@ -97,6 +97,12 @@ a{
   padding: 50px 0 50px 0;
 }
 
+.bottom-container {
+  text-align: center;
+  background-color: #bbf1fa;
+  padding: 50px 0 50px 0;
+}
+
 .bottom-container p{
   margin-bottom: 0;
 }
@@ -106,6 +112,13 @@ a{
   text-decoration: none;
   font-weight: bold;
   color: #51c2d5;
+}
+
+.bottom-container a:hover{
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ec4646;
 }
 
 hr {
@@ -127,7 +140,24 @@ hr {
   font-weight: 100;
   padding: 10px;
   background-color: #EC4646;
-  border: inset #663F3F 1px;
+  border: inset #000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  margin: 20px auto;
+  border-radius: 3%;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: lightcoral;
+  border: solid #000 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
